@@ -5,17 +5,13 @@
 # https://en.wikipedia.org/wiki/Fibonacci_number
 # For this function, the first two fibonacci numbers are 1 and 1
 
-def fib(n):
-    # Write code here
-    pass
+def fibonacci(n):
+    if n == 1:
+        return 1
+    elif n == 2:
+        return 1
+    elif n > 2:
+        return fibonacci(n-1) + fibonacci(n-2)
 
-# print(fib(-1))
-# => 0
-# print(fib(0))
-# => 0
-# print(fib(1))
-# => 1
-# print(fib(2))
-# => 1
-# print(fib(7))
-# => 13
+
+print(fibonacci(-1))

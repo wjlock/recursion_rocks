@@ -4,8 +4,6 @@
 # This function returns the largest number in a given array.
 
 def find_max(l):
-    # Write code here
-    pass
 
-# print(find_max([1, 4, 45, 6, -50, 10, 2]))
-# => 45
+    # print(find_max([1, 4, 45, 6, -50, 10, 2]))
+    # => 45
